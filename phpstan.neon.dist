@@ -1,0 +1,4 @@
+parameters:
+    ignoreErrors:
+        # False positives
+        -  "#Call to function method_exists\\(\\) with string and 'getGroups' will always evaluate to false\\.#"

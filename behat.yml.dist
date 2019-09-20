@@ -1,0 +1,16 @@
+default:
+    suites:
+        default:
+            contexts:
+                - MickPrev\Duplicator\Behat\DuplicatorAsALibraryContext
+symfony:
+    suites:
+        default:
+            contexts:
+                - MickPrev\Duplicator\Behat\DatabaseContext
+                - MickPrev\Duplicator\Behat\DuplicatorAsAServiceContext
+    extensions:
+        FriendsOfBehat\SymfonyExtension:
+            bootstrap: tests/Fixtures/bootstrap.php
+            kernel:
+                class: MickPrev\Duplicator\Tests\Fixtures\Kernel
