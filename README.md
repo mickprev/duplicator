@@ -1,7 +1,7 @@
 Duplicator
 ==========
 
-Library for duplicate a value (array, object, scalar, ...) using PHP annotations.
+Library for duplicate an object (or an array of objects) using PHP annotations.
 
 Getting started
 ------------

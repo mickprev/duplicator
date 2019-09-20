@@ -1,0 +1,9 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    MickPrev\Duplicator\Behat\DatabaseContext: ~
+    MickPrev\Duplicator\Behat\DuplicatorAsAServiceContext: ~
+    MickPrev\Duplicator\Tests\Fixtures\Duplicator\:
+        resource: '../../Duplicator/'
